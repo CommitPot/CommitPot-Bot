@@ -1,4 +1,4 @@
-module commit_pot-bot
+module commit_pot_bot
 
 go 1.21.4
 

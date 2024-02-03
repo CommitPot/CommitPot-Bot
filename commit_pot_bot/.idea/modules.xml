@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/commit_pot-bot.iml" filepath="$PROJECT_DIR$/commit_pot-bot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commit_pot_bot.iml" filepath="$PROJECT_DIR$/commit_pot_bot.iml" />
     </modules>
   </component>
 </project>
