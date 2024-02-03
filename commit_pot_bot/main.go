@@ -28,7 +28,7 @@ func test(s *discordgo.Session, m *discordgo.MessageCreate) {
 func main() {
 	e := echo.New()
 	cron = *cron2.New()
-	dg, err := discordgo.New("Bot " + "MTIwMjY4MDY4MDQ5NzAyMDk0OQ.G0Qltj.hr-XDbVPOviXsPlVjRLSQUsgyfbN-6NA-kVREc")
+	dg, err := discordgo.New("Bot " + os.Getenv("DISCORD_BOT_TOKEN"))
 	if err != nil {
 		fmt.Println("[ERROR] : 디스코드 세션 생성에 실패했습니다, ", err)
 		return
