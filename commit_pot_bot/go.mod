@@ -3,6 +3,8 @@ module commit_pot_bot
 go 1.21.4
 
 require (
+	github.com/PuerkitoBio/goquery v1.8.1 // indirect
+	github.com/andybalholm/cascadia v1.3.1 // indirect
 	github.com/bwmarrin/discordgo v0.27.1 // indirect
 	github.com/gorilla/websocket v1.4.2 // indirect
 	github.com/labstack/echo/v4 v4.11.4 // indirect
