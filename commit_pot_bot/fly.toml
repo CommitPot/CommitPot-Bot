@@ -12,6 +12,7 @@ primary_region = 'nrt'
 
 [env]
   PORT = '8080'
+  TZ = 'Asia/Seoul'
 
 [http_service]
   internal_port = 8080
